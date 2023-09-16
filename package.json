@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "build": "mkdir -p dist && cp -r * dist" },
+    "build": "mkdir -p build && cp -r !(build) build"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"
