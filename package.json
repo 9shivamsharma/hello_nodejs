@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js", // Assuming this is your app's entry point
+    "build": "mkdir -p dist && cp -r * dist" // Simple build script to copy files to a "dist" directory
   },
   "keywords": [],
   "author": "",
   "license": "ISC"
 }
+
