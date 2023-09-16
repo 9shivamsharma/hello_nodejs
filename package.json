@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js", // Assuming this is your app's entry point
-    "build": "mkdir -p dist && cp -r * dist" // Simple build script to copy files to a "dist" directory
-  },
+    "start": "node index.js",
+    "build": "mkdir -p dist && cp -r * dist" },
   "keywords": [],
   "author": "",
   "license": "ISC"
